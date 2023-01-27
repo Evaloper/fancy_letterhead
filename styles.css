@@ -55,9 +55,14 @@ article {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #ffffff;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
 }
 
 h1 {
   background-image: url(logo.png);
-  filter: drop-shadow(2px 3px 1px black);
+  /* filter: drop-shadow(2px 3px 1px black); */
+  box-shadow: 2px 2px 3px 1px #000;
+  -webkit-box-shadow: 2px 2px 3px 1px #000;
+  border-radius: 65px;
 }
